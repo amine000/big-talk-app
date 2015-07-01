@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.amine_000.bigtalkapp.QuestionsView">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" myapp:showAsAction="never" />
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/white_plus"
+        android:title="@string/add_item"
+        myapp:showAsAction="always" />
+</menu>
